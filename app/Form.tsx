@@ -198,7 +198,7 @@ const Form = () => {
                         checked={form.nivel.includes(nivel)}
                         onChange={handleNivelCheckbox(nivel)}
                       />
-                    }
+                    }//test 
                     label={nivel}
                   />
                 ))}
